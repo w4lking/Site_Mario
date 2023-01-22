@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/imagen-html/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+
+  
+
+    <title>Super Mario - O Filme</title>
+</head>
+<body>
+    
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo"
+            src="./src/imagen-html/logo-chapeu-mario.png" alt="logo chapeu Mario"> 
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <dev class="informacoes">
+            <img class= "imagem_titulo" src="./src/imagen-html/titulo.png" alt="imagem do titulo do filme">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dignissimos iusto eos ducimus accusamus dolore optio mollitia. Repudiandae quam alias delectus. Voluptatibus deserunt dicta beatae maxime tenetur, veniam numquam provident.
+            </p>
+            <button class="botao-trailer"> Veja o trailer </button>
+        </dev>
+        <img class="mario" src="./src/imagen-html/super-mario-chars.png" />
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">x</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+    
+<!-- <footer>
+    <a> More informações</a>
+</footer>-->
+
+</body>
+</html>
